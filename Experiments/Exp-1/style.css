@@ -1,0 +1,46 @@
+/* Apply basic styling to everything */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container for main content and sidebar */
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Main content */
+main {
+    flex: 2;
+    background: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    background: #ddd;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
